@@ -1,0 +1,10 @@
+Link for part 2: https://codepen.io/felipe-slaughter-quintero/pen/mdPZdZP?editors=1100
+
+Review questions/answers for: User Interface Check for Understanding
+
+1. Which of the following is not a semantic tag in HTML? <div>
+2. Which is the best way to include an image in HTML? <img src="image.png"/>
+3. In the example below, which element(s) is considered the "parent"? <div>
+4. Which CSS syntax would change the font size of h1 elements to 24px? h1 {font-size:24px;}
+5. Which is the most specific css that changes the size of this image? .myimage {width:200px;}
+6. How many classes does the following element have? <h1 class="a b c d"> this has 4 classes
