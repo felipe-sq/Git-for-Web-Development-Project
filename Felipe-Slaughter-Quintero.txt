@@ -1,10 +1,128 @@
-Link for part 2: https://codepen.io/felipe-slaughter-quintero/pen/mdPZdZP?editors=1100
+Codepen link for part 2: https://codepen.io/felipe-slaughter-quintero/pen/Vwaoerv?editors=1100
 
-Review questions/answers for: User Interface Check for Understanding
+Review questions/answers from part 2
 
-1. Which of the following is not a semantic tag in HTML? <div>
-2. Which is the best way to include an image in HTML? <img src="image.png"/>
-3. In the example below, which element(s) is considered the "parent"? <div>
-4. Which CSS syntax would change the font size of h1 elements to 24px? h1 {font-size:24px;}
-5. Which is the most specific css that changes the size of this image? .myimage {width:200px;}
-6. How many classes does the following element have? <h1 class="a b c d"> this has 4 classes
+1. What is Semantic HTML? 
+This is the use of html in a way that conveys the meaning of the information in web pages, useful with seo and screen readers.
+
+2. What is HTML used for? 
+HTML, also called Hypertext Markup Language, is used to create web pages. Specifically, it's used for text elements on a web page. 
+
+3. What is an attribute and where do we put it?
+An attribute is the what we use inside tags to tell an HTML element what it needs to do.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+The h1 tag is the largest heading tag used for styling text into larger headings. One should only use this once per page.
+
+5. Name two tags that have required attributes
+Two tags that have required attributes are the <a> and <img> tags. 
+<a> requires an attribute to tell it where to link to, and <img> requires an attribute to tell it where to pull an image from.
+
+6. What do we put in the head of our HTML document? 
+The head of our HTML documents always contains the <head> tag, which contains important information (data) relevant to the page.
+
+7. What is an id? 
+An id is a selector which is used to style a specific html element. It is used for html and CSS.
+
+8. What elements can I add an id to? 
+The id selector can be used with any specific html element which needs styling.
+
+9. How many times can I use the same id on a page? 
+The same id can only be used once per page (once per html element). 
+It's like a state ID, where only one person can have a specific ID (no one else can have their ID).
+
+10. What is a class? 
+A class is a selector which can be used multiple times on a page. 
+
+11. What elements can I add a class to? 
+A class element can be used on html elements.
+
+12. How many times can I use the same class on a page? 
+As many times as needed!
+
+13. How do I get my link to open in a new tab?
+You would include a specific target attribute in the <a> tag, like so: target="_blank"
+
+14. What is the alt attribute in the image tag used for? 
+The alt attribute is used in order to include a brief description of an image, in case the image cannot load or for the benefit of the visually impaired.
+
+15. How do I reference an id?
+This is done with a '#' or hash, followed by the actual id being used for the element. For example: #sample-id {}
+
+16. What is the difference between a section and a div
+A div is used to define divisions of HTML and used to group elements for CSS styling, where section is used to define specific sections, such as paragraphs, text boxes, etc. 
+
+17. What is CSS used for? 
+CSS is used to style html elements on a global scale, instead of having to style individual elements for each element using only html.
+
+18. How to we select an element? Example - every h2 on the page
+This is done by selecting an element globally, for example, to change all h2 elements to blue we would use h2 { color: blue;} in CSS.
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+A class is used to style multiple elements, such as when you want to add padding or margins around a grouping of block elements. Example: 
+.container { padding: 10px 0; }
+An id is used only for a specific element, such as when you want to make only the h1 blue. Example: 
+#h1-id { color: blue;}
+
+20. How do we select classes in CSS?
+Classes are selected with a '.' or period, followed by the class name. 
+
+21. How do we select a p element with a single class of “human””?
+This is selected as follows: .human {} in CSS, where the HTML would be <p class="human"></p>
+
+22. What is a parent child selector? When would this be useful? 
+This is a selector which "selects" all the elements which are direct children of an element. 
+
+23. How do you select all links within a div with the class of sidebar?
+.sidebar a {}
+
+24. What is a pseudo selector?
+This is something like :hover, which is basically an additional word added to a selector that is used for a speficic state or action.
+
+25. What do we use the change the spacing between lines?
+We would use the CSS property of line-height.
+
+26. What do we use to change the spacing between letters?
+We would use letter-spacing, followed by the amount of desired spacing. Example: {letter-spacing: 5px;}
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+We use text-transform, followed by ':' and then uppercase, lowercase, or capitalize.
+
+28. How do I add a 1px border around my div that is dotted and black?
+divname { border: 1px dotted black;}
+
+29. How do I select everything on the page? 
+Use a universal selector, like * {}
+
+30. How do I write a comment in CSS?
+Use /* comment text */
+
+31. How do I find out what file I am in, when I am using the command line? 
+Use the pwd command.
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+Use the ls command.
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+Use rm followed by the file name. You want to be careful because this command will delete a file without asking for confirmation beforehand. 
+
+34. Why should I use version control? 
+Version control should be used to keep from making a bunch of changes and having so save local copies. Version control keeps a history of changes made,
+so that if new code is buggy, one can go back to see when the error/bug was introduced. It's also good to use this when working with teams since you 
+don't want to work on something for hours only to have someone else's code update overwrite yours.
+
+35. How often should I commit to github?
+Commit often! 
+
+36. What is the command we would use to push our repo up to github? 
+git push origin 'branch-name'
+
+37. Walk me through Lambda's git flow. 
+The Lambda git flow is as follows:
+1. Fork - ensure that your own name is shown in the Repo name
+2. Collaborate - add PM as a collaborator (settings->collaborators->type pm’s name into the text box and select from results)
+3. Clone (click green button, copy from https option)
+4. Branch - create your own branch using git checkout -b ‘firstName-lastName’
+5. Submit Pull Request (PR) Part A (select the branch that shows your own name)
+    Submit PR Part B - add your PM as a collaborator; select from the “Reviewers” dropdown on the right side
+6. Complete - a PM will now accept the merge request after conducting a review of the code. 
